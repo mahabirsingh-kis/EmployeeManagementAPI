@@ -1,0 +1,235 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj": {}
+  },
+  "projects": {
+    "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.DAL\\EmployeeManagement.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.DAL\\EmployeeManagement.DAL.csproj",
+        "projectName": "EmployeeManagement.DAL",
+        "projectPath": "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.DAL\\EmployeeManagement.DAL.csproj",
+        "packagesPath": "C:\\Users\\system56\\.nuget\\packages\\",
+        "outputPath": "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\system56\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj": {
+                "projectPath": "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj",
+        "projectName": "EmployeeManagement.Models",
+        "projectPath": "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj",
+        "packagesPath": "C:\\Users\\system56\\.nuget\\packages\\",
+        "outputPath": "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\system56\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
+        "projectName": "EmployeeManagement.Web",
+        "projectPath": "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
+        "packagesPath": "C:\\Users\\system56\\.nuget\\packages\\",
+        "outputPath": "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\system56\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.DAL\\EmployeeManagement.DAL.csproj": {
+                "projectPath": "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.DAL\\EmployeeManagement.DAL.csproj"
+              },
+              "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj": {
+                "projectPath": "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.Models\\EmployeeManagement.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

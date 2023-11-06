@@ -1,0 +1,12 @@
+E:\Work2023\Core6\EmployeeManagementAPI\EmployeeManagement.Models\bin\Debug\net7.0\EmployeeManagement.Models.deps.json
+E:\Work2023\Core6\EmployeeManagementAPI\EmployeeManagement.Models\bin\Debug\net7.0\EmployeeManagement.Models.dll
+E:\Work2023\Core6\EmployeeManagementAPI\EmployeeManagement.Models\bin\Debug\net7.0\EmployeeManagement.Models.pdb
+E:\Work2023\Core6\EmployeeManagementAPI\EmployeeManagement.Models\obj\Debug\net7.0\EmployeeManagement.Models.csproj.AssemblyReference.cache
+E:\Work2023\Core6\EmployeeManagementAPI\EmployeeManagement.Models\obj\Debug\net7.0\EmployeeManagement.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work2023\Core6\EmployeeManagementAPI\EmployeeManagement.Models\obj\Debug\net7.0\EmployeeManagement.Models.AssemblyInfoInputs.cache
+E:\Work2023\Core6\EmployeeManagementAPI\EmployeeManagement.Models\obj\Debug\net7.0\EmployeeManagement.Models.AssemblyInfo.cs
+E:\Work2023\Core6\EmployeeManagementAPI\EmployeeManagement.Models\obj\Debug\net7.0\EmployeeManagement.Models.csproj.CoreCompileInputs.cache
+E:\Work2023\Core6\EmployeeManagementAPI\EmployeeManagement.Models\obj\Debug\net7.0\EmployeeManagement.Models.dll
+E:\Work2023\Core6\EmployeeManagementAPI\EmployeeManagement.Models\obj\Debug\net7.0\refint\EmployeeManagement.Models.dll
+E:\Work2023\Core6\EmployeeManagementAPI\EmployeeManagement.Models\obj\Debug\net7.0\EmployeeManagement.Models.pdb
+E:\Work2023\Core6\EmployeeManagementAPI\EmployeeManagement.Models\obj\Debug\net7.0\ref\EmployeeManagement.Models.dll
