@@ -1,0 +1,15 @@
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.DAL\bin\Release\net7.0\EmployeeManagement.DAL.deps.json
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.DAL\bin\Release\net7.0\EmployeeManagement.DAL.dll
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.DAL\bin\Release\net7.0\EmployeeManagement.DAL.pdb
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.DAL\bin\Release\net7.0\EmployeeManagement.Models.dll
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.DAL\bin\Release\net7.0\EmployeeManagement.Models.pdb
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.DAL\obj\Release\net7.0\EmployeeManagement.DAL.csproj.AssemblyReference.cache
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.DAL\obj\Release\net7.0\EmployeeManagement.DAL.GeneratedMSBuildEditorConfig.editorconfig
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.DAL\obj\Release\net7.0\EmployeeManagement.DAL.AssemblyInfoInputs.cache
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.DAL\obj\Release\net7.0\EmployeeManagement.DAL.AssemblyInfo.cs
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.DAL\obj\Release\net7.0\EmployeeManagement.DAL.csproj.CoreCompileInputs.cache
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.DAL\obj\Release\net7.0\EmployeeManagement.DAL.csproj.CopyComplete
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.DAL\obj\Release\net7.0\EmployeeManagement.DAL.dll
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.DAL\obj\Release\net7.0\refint\EmployeeManagement.DAL.dll
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.DAL\obj\Release\net7.0\EmployeeManagement.DAL.pdb
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.DAL\obj\Release\net7.0\ref\EmployeeManagement.DAL.dll

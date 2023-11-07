@@ -16,11 +16,10 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+
 
 app.UseHttpsRedirection();
 
@@ -28,4 +27,19 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+using var scope = app.Services.CreateScope();
+var dbContext = scope.ServiceProvider.GetRequiredService<ApiContext>();
+string[] departments = new string[] { "HR", "DevOps", "Development" };
+for (int i = 0; i < departments.Length; i++)
+{
+    if (!dbContext.Departments.Any(x => x.DepartmentName == departments[i]))
+    {
+        dbContext.Departments.Add(new EmployeeManagement.Models.Entity.Department
+        {
+            DepartmentName = departments[i],
+            DepartmentId = i + 1
+        });
+    }
+}
+dbContext.SaveChanges();
 app.Run();

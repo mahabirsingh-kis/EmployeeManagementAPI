@@ -22,8 +22,9 @@ public class EmployeeRepository : IEmployeeRepository
     public void CreateEmployee(EmployeeCreateRequest employeeCreateRequest)
     {
         // Validate
+
         if(_apiContext.Employees.Any(x=>x.Email == employeeCreateRequest.Email))
-            throw new AppException("User with the email '" + employeeCreateRequest.Email + "' already exists");
+            throw new Exception("User with the email '" + employeeCreateRequest.Email + "' already exists");
 
         var employee = _mapper.Map<Employee>(employeeCreateRequest);
         _apiContext.Employees.Add(employee);
@@ -32,8 +33,20 @@ public class EmployeeRepository : IEmployeeRepository
 
     public List<EmployeesResponse> GetEmployees()
     {
-        var employeeList = _apiContext.Employees.Include(x=>x.Department).ToList();
+        var department = _apiContext.Departments.ToList();
+        var employeeList = _apiContext.Employees.ToList();
+        foreach (var employee in employeeList)
+        {
+            employee.Department = department.FirstOrDefault(x => x.DepartmentId == employee.DepartmentId);
+        }
         var responseList = _mapper.Map<List<EmployeesResponse>>(employeeList);
+        return responseList;
+    }
+
+    public List<DepartmentResponse> GetDepartments()
+    {
+        var employeeList = _apiContext.Departments.ToList();
+        var responseList = _mapper.Map<List<DepartmentResponse>>(employeeList);
         return responseList;
     }
 
@@ -48,7 +61,7 @@ public class EmployeeRepository : IEmployeeRepository
 
         // Validate
         if (employeeUpdateRequest.Email != employee.Email && _apiContext.Employees.Any(x => x.Email == employeeUpdateRequest.Email))
-            throw new AppException("User with the email '" + employeeUpdateRequest.Email + "' already exists");
+            throw new Exception("User with the email '" + employeeUpdateRequest.Email + "' already exists");
 
         _mapper.Map(employeeUpdateRequest, employee);
         _apiContext.Employees.Update(employee);
@@ -67,7 +80,7 @@ public class EmployeeRepository : IEmployeeRepository
     private Employee getEmployee(int employeeId)
     {
         var employee = _apiContext.Employees.Find(employeeId);
-        if(employee == null) throw new KeyNotFoundException("Employee not found");
+        if(employee == null) throw new Exception("Employee not found");
         return employee;
     }
 
@@ -79,11 +92,15 @@ public class EmployeeRepository : IEmployeeRepository
         {
             new Department
             {
-                DepartmentName="Management"
+                DepartmentName="HR"
             },
             new Department
             {
-                DepartmentName="Accounts"
+                DepartmentName="DevOps"
+            },
+            new Department
+            {
+                DepartmentName="Development"
             }
         };
             _apiContext.Departments.AddRange(departmentsList);

@@ -19,7 +19,14 @@ public class EmployeeController : ControllerBase
     public IActionResult GetAll()
     {
         var list = _employeeRepository.GetEmployees();
-        return Ok(list);
+        return Ok(new { data = list });
+    }
+
+    [HttpGet("GetDepartments")]
+    public IActionResult GetDepartments()
+    {
+        var list = _employeeRepository.GetDepartments();
+        return Ok(new { data = list });
     }
 
     [HttpGet("GetEmployeeById")]
@@ -33,16 +40,20 @@ public class EmployeeController : ControllerBase
     public IActionResult CreateEmployee(EmployeeCreateRequest employeeCreateRequest)
     {
         _employeeRepository.CreateEmployee(employeeCreateRequest);
-        return Ok(new {message="Employee created"});
+        return Ok(new { message = "Employee created" });
     }
 
-    [HttpPut("UpdateEmployee")]
-    public IActionResult UpdateEmployee(int id, EmployeeUpdateRequest employeeUpdateRequest)
+    [HttpPost("UpdateEmployee")]
+    public IActionResult UpdateEmployee(EmployeeUpdateRequest employeeUpdateRequest)
     {
-        _employeeRepository.UpdateEmployee(id, employeeUpdateRequest);
+        _employeeRepository.UpdateEmployee(employeeUpdateRequest.EmployeeId, employeeUpdateRequest);
         return Ok(new { message = "Employee updated" });
     }
 
     [HttpDelete("DeleteEmployee")]
-    public IActionResult DeleteEmployee(int id) {  _employeeRepository.DeleteEmployee(id); return Ok(new { message = "Employee deleted" }); }
+    public IActionResult DeleteEmployee(int id)
+    {
+        _employeeRepository.DeleteEmployee(id);
+        return Ok(new { message = "Employee deleted", data = true });
+    }
 }

@@ -1,0 +1,12 @@
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.Models\bin\Release\net7.0\EmployeeManagement.Models.deps.json
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.Models\bin\Release\net7.0\EmployeeManagement.Models.dll
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.Models\bin\Release\net7.0\EmployeeManagement.Models.pdb
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.Models\obj\Release\net7.0\EmployeeManagement.Models.csproj.AssemblyReference.cache
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.Models\obj\Release\net7.0\EmployeeManagement.Models.GeneratedMSBuildEditorConfig.editorconfig
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.Models\obj\Release\net7.0\EmployeeManagement.Models.AssemblyInfoInputs.cache
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.Models\obj\Release\net7.0\EmployeeManagement.Models.AssemblyInfo.cs
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.Models\obj\Release\net7.0\EmployeeManagement.Models.csproj.CoreCompileInputs.cache
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.Models\obj\Release\net7.0\EmployeeManagement.Models.dll
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.Models\obj\Release\net7.0\refint\EmployeeManagement.Models.dll
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.Models\obj\Release\net7.0\EmployeeManagement.Models.pdb
+G:\Core7\EmployeeManagementAPI\EmployeeManagement.Models\obj\Release\net7.0\ref\EmployeeManagement.Models.dll

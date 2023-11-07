@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c7s+fw4pak9Idhajf5cDtzY3mIoRB8hf+1tv9Tco1NV675sf1RKm6pdy8oc8Rd4R1oXmu8PEnC7+18Qcy0+dRQ==",
+  "dgSpecHash": "v5ODKo0z9wEFFBvw3pPAC7KJOPccsj7lOsvZ3nsFpuvXrtKEX+DdrOkPJrP0bj43ktI/NyRVcJlSTasnGuZwEQ==",
   "success": true,
-  "projectFilePath": "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
+  "projectFilePath": "G:\\Core7\\EmployeeManagementAPI\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\system56\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\system56\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

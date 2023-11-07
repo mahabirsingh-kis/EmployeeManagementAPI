@@ -10,6 +10,6 @@ public class EmployeeCreateRequest
     [EmailAddress]
     public string Email { get; set; }
     [Required]
-    public string DOB { get; set; }
+    public DateTime DOB { get; set; }
     public int DepartmentId { get; set; }
 }

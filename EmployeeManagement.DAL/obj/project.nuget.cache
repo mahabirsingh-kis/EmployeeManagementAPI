@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ae9r5Wr+iOcZwfuC9FLpi06+Qtbw/xsm9LM+DzGhmiByoUaYDIYLrs8sXwNw0NAJFX2NK6zp1NiZqic6cAUp8A==",
+  "dgSpecHash": "CItZcuDVcL/YebS9hbvYGbdlf+P0QrJRunFon0YRp8pN4wV6/OyLnclld4hBcCyIsIJw9qWcbq4r9IaZ65nN5w==",
   "success": true,
-  "projectFilePath": "E:\\Work2023\\Core6\\EmployeeManagementAPI\\EmployeeManagement.DAL\\EmployeeManagement.DAL.csproj",
+  "projectFilePath": "G:\\Core7\\EmployeeManagementAPI\\EmployeeManagement.DAL\\EmployeeManagement.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\system56\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",
     "C:\\Users\\system56\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.13\\microsoft.entityframeworkcore.abstractions.7.0.13.nupkg.sha512",

@@ -12,4 +12,5 @@ public class EmployeeUpdateRequest
     [Required]
     public string DOB { get; set; }
     public int DepartmentId { get; set; }
+    public int EmployeeId { get; set; }
 }

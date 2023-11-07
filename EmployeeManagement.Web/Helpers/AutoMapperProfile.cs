@@ -10,7 +10,9 @@ public class AutoMapperProfile:Profile
     {
         CreateMap<EmployeeCreateRequest, Employee>();
         CreateMap<EmployeeUpdateRequest, Employee>();
+        CreateMap<DepartmentResponse, Department>();
+        CreateMap<Department, DepartmentResponse>();
         CreateMap<Employee, EmployeesResponse>()
-            .ForMember(x => x.DepartmentName, opt => opt.MapFrom(src => src.Department.DepartmentName));
+            .ForMember(x => x.DepartmentName, opt => opt.MapFrom(src => src.Department != null ? src.Department.DepartmentName : string.Empty));
     }
 }
